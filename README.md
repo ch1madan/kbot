@@ -4,5 +4,5 @@ Link to add the BOT: https://t.me/ch1madan_bot
 
 Usage:
 
-/start - start the bot;
+/start - start the bot;\
 /start hello - check bot version.
