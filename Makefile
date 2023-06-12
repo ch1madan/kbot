@@ -1,8 +1,8 @@
 APP=$(shell basename $(shell git remote get-url origin))
 
-#SHELL := /bin/bash
-#APP := kbot
-#VERSION := $(shell git describe --tags --abbrev=0)
+SHELL := /bin/bash
+APP := kbot
+VERSION := $(shell git describe --tags --abbrev=0)
 
 linux:
 	${MAKE} build TARGETOS=linux TARGETARCH=${TARGETARCH}
